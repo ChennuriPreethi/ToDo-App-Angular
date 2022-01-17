@@ -1,0 +1,30 @@
+<div class="container">
+    <table class="table">
+        <thead>
+            <th>
+                <h3>Name</h3>
+            </th>
+            <th>
+                <h3>Email</h3>
+            </th>
+            <th>
+
+            </th>
+        </thead>
+            <tbody>
+            <tr *ngFor="let i of users;" >
+                <td>
+                    {{i.name}}
+                </td>
+                <td>
+                    {{i.email}}
+
+                </td>
+                <td>
+                    <!-- <a href="/addtasks" type="submit" class="btn btn-primary" (click)="userTask(i._id)" >Add Task</a> -->
+                    <button class="button btn btn-primary" [routerLink]="['/users', i._id,'new-task']">Add Task</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

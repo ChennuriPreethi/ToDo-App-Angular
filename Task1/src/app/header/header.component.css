@@ -1,0 +1,18 @@
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+.bg-blue {
+    background-color:orangered;
+}
+.navbar-brand img { 
+    height:50px; 
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    font-size: 20px;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+    color:#fff;
+    
+}
